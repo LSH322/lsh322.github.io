@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Louisiana Sound Harmony</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0b0c10;
+      color: #ffffff;
+    }
+    header, footer {
+      background-color: #1f2833;
+      text-align: center;
+      padding: 1.5em 0;
+    }
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+      color: #66fcf1;
+    }
+    .button-link button {
+      padding: 0.8em 1.5em;
+      background-color: #45a29e;
+      color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    .button-link button:hover {
+      background-color: #66fcf1;
+      color: #0b0c10;
+    }
+    section {
+      padding: 2em;
+      max-width: 600px;
+      margin: auto;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    input, textarea {
+      padding: 0.75em;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      background-color: #c5c6c7;
+      color: #0b0c10;
+    }
+    button[type="submit"] {
+      padding: 0.8em;
+      background-color: #45a29e;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    button[type="submit"]:hover {
+      background-color: #66fcf1;
+      color: #0b0c10;
+    }
+    footer p {
+      margin: 0;
+      color: #c5c6c7;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Louisiana Sound Harmony</h1>
+  <a href="#contato" class="button-link"><button>Fale conosco</button></a>
+</header>
+
+<section id="contato">
+  <h2 style="color:#66fcf1;">Fale conosco</h2>
+  <form action="https://formsubmit.co/contato@louisianash.com.br" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://www.louisianash.com.br/obrigado.html">
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+    <button type="submit">Enviar mensagem</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Louisiana Sound Harmony • Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
