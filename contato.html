@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Fale Conosco - LSH</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 200px;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    button {
+      background-color: #333;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo-lsh.png" alt="Logo Louisiana Sound Harmony">
+  <h2>Fale Conosco</h2>
+
+  <form action="https://formsubmit.co/contato@louisianash.com.br" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://www.louisianash.com.br/obrigado.html">
+
+    <label>Nome</label>
+    <input type="text" name="nome" required>
+
+    <label>E-mail</label>
+    <input type="email" name="email" required>
+
+    <label>Mensagem</label>
+    <textarea name="mensagem" rows="5" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
